@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Down2Earth International</title>
+  <style>
+    /* Base Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f4f4f4;
+    }
+    /* Header Styles */
+    header {
+      background: linear-gradient(135deg, #6BB8E5, #3D94F6);
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    /* Navigation Styles */
+    nav {
+      background: #333;
+      color: #fff;
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1em;
+      transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+      color: #6BB8E5;
+    }
+    /* Section Styles */
+    section {
+      padding: 40px 20px;
+      margin: 20px auto;
+      max-width: 1000px;
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      margin-bottom: 20px;
+      color: #3D94F6;
+      border-bottom: 2px solid #6BB8E5;
+      padding-bottom: 10px;
+    }
+    .project, .news-item {
+      margin-bottom: 20px;
+    }
+    .project h3, .news-item h3 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+    /* Contact Section */
+    .contact-info p {
+      margin: 10px 0;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    form input, form textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    form button {
+      padding: 10px;
+      border: none;
+      background: #3D94F6;
+      color: #fff;
+      font-size: 1em;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    form button:hover {
+      background: #6BB8E5;
+    }
+    /* Footer Styles */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 0.9em;
+    }
+    /* Responsive Adjustments */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.5em;
+      }
+      nav ul {
+        flex-direction: column;
+      }
+      nav ul li {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Down2Earth International</h1>
+    <p>Working Together for a Sustainable Future, Protecting Our Home Planet</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="hero">
+    <h2>Welcome to Down2Earth International</h2>
+    <p>
+      Down2Earth International is a global organization dedicated to environmental conservation, sustainable development, and maintaining ecological balance. Through international collaboration and innovative practices, we strive to create lasting, positive change for our planet. Our team of experts and volunteers from around the world is united by a passion for a greener, healthier future.
+    </p>
+  </section>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Founded by a group of committed professionals passionate about environmental protection and sustainable growth, Down2Earth International focuses on driving global environmental governance through scientific research, policy advocacy, and community education. We aim to foster transformative change through collaborative initiatives and forward-thinking solutions.
+    </p>
+    <p>
+      Under the visionary leadership of Chair Anna Karlsson, our organization continually explores innovative approaches and actively participates in significant environmental projects worldwide. Her extensive international experience and exemplary leadership inspire us to push the boundaries of environmental conservation.
+    </p>
+  </section>
+  <section id="projects">
+    <h2>Our Projects</h2>
+    <div class="project">
+      <h3>Renewable Energy Promotion</h3>
+      <p>
+        We advocate for the adoption of solar, wind, and hydro energy technologies to reduce reliance on fossil fuels. This initiative aims to cut greenhouse gas emissions, drive the global transition to green energy, and provide sustainable energy solutions.
+      </p>
+    </div>
+    <div class="project">
+      <h3>Eco-City Development</h3>
+      <p>
+        In collaboration with local governments and urban planners, we spearhead initiatives in green building, smart transportation, and urban greening. Our goal is to create eco-friendly cities that improve the quality of urban living while conserving natural resources.
+      </p>
+    </div>
+    <div class="project">
+      <h3>Community Environmental Education</h3>
+      <p>
+        We organize regular workshops, training sessions, and volunteer activities to raise environmental awareness and educate communities on sustainable practices. Every participant becomes an advocate for environmental stewardship, contributing to the global effort to protect our planet.
+      </p>
+    </div>
+  </section>
+  <section id="news">
+    <h2>Latest News</h2>
+    <div class="news-item">
+      <h3>Global Environmental Summit a Great Success</h3>
+      <p>
+        At the recent Global Environmental Summit, Down2Earth International showcased our achievements in renewable energy and eco-city development. Leading environmental experts from around the world discussed innovative paths for sustainable progress.
+      </p>
+    </div>
+    <div class="news-item">
+      <h3>Community Education Initiatives Yield Impressive Results</h3>
+      <p>
+        Our outreach programs have made significant strides in raising environmental awareness. Volunteers have engaged communities through educational sessions, recycling campaigns, and tree-planting events, fostering a culture of sustainability.
+      </p>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <p><strong>Email:</strong> admin@down2earthdown2us.tech</p>
+      <p><strong>Address:</strong> Global Headquarters for Sustainable Development</p>
+    </div>
+    <form action="mailto:admin@down2earthdown2us.tech" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2025 Down2Earth International. All rights reserved.</p>
+  </footer>
+</body>
+</html>
